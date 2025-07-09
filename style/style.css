@@ -147,3 +147,35 @@ main section{
 .btn-margin{
     margin-top: 30px;
 }
+/* footer */
+footer{
+    padding: 130px 230px;
+}
+.footer-container{
+    display: flex;
+    gap: 100px;
+}
+.footer-col{
+    width:50%;
+}
+input{
+    height: 64px;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    border: none;
+
+}
+textarea{
+    width: 100%;
+    border: none;
+}
+::placeholder{
+    padding: 20px;
+    color: rgba(117, 117, 117, 1);
+    font-size: 12px;
+}
+#submit{
+    display: block;
+    margin-top: 30px;
+}
