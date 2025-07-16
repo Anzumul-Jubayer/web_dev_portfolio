@@ -254,4 +254,24 @@ textarea {
     .about-items{
         flex-direction: column;
     }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    header{
+        background-image: none;
+        width:100%;
+    }
+    .banner-profile-image {
+    width:100%;
+    }
+    nav,nav>ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-content button{
+        margin-bottom: 10px;
+    }
 }
+    
+
